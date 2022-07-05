@@ -103,6 +103,7 @@ class QuoteTableViewController: UITableViewController, SKPaymentTransactionObser
                 showPremiumQuotes()
                 
             }
+        }
     }
     
     func showPremiumQuotes() {
