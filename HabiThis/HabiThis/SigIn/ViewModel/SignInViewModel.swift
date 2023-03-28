@@ -55,6 +55,10 @@ class SignInViewModel: ObservableObject {
             }
         } receiveValue: { success in
             print(success)
+            self.interactor.insertAuth(userAuth: UserAuth(idToken: success.accessToken,
+                                                          refreshToken: success.refreshToken,
+                                                          expires: success.expires,
+                                                          tokenType: success.tokenType))
             self.uiState = .goToHomeScreen
         }
     }

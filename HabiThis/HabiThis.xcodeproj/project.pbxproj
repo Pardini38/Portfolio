@@ -44,6 +44,8 @@
 		CECA37B229CC80CE00F284C3 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA37B129CC80CE00F284C3 /* SignInInteractor.swift */; };
 		CECA37B429CC82CE00F284C3 /* SignInRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA37B329CC82CE00F284C3 /* SignInRemoteDataSource.swift */; };
 		CECA37B629CC8F5B00F284C3 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA37B529CC8F5B00F284C3 /* AppError.swift */; };
+		CEFF828129D1D95500CBB474 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF828029D1D95500CBB474 /* UserAuth.swift */; };
+		CEFF828329D1DD2300CBB474 /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF828229D1DD2300CBB474 /* LocalDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		CECA37B129CC80CE00F284C3 /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
 		CECA37B329CC82CE00F284C3 /* SignInRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRemoteDataSource.swift; sourceTree = "<group>"; };
 		CECA37B529CC8F5B00F284C3 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		CEFF828029D1D95500CBB474 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		CEFF828229D1DD2300CBB474 /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				CE80F7C529BF697A00E671A5 /* WebService.swift */,
+				CEFF828229D1DD2300CBB474 /* LocalDataSource.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				CE58140529C8A55900DC6B8F /* ErrorResponse.swift */,
 				CEBCFD9A29B78057008178BF /* Gender.swift */,
 				CECA37B529CC8F5B00F284C3 /* AppError.swift */,
+				CEFF828029D1D95500CBB474 /* UserAuth.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -547,7 +553,9 @@
 				CECA37B429CC82CE00F284C3 /* SignInRemoteDataSource.swift in Sources */,
 				CEA6E60B29BA29D100DA4DA0 /* LoadingButtonView.swift in Sources */,
 				CE58140629C8A55900DC6B8F /* ErrorResponse.swift in Sources */,
+				CEFF828329D1DD2300CBB474 /* LocalDataSource.swift in Sources */,
 				CE9EACB929CA0A6300388025 /* SignInErrorResponse.swift in Sources */,
+				CEFF828129D1D95500CBB474 /* UserAuth.swift in Sources */,
 				CEA77FC429B0D70C00C41C1E /* SplashUIState.swift in Sources */,
 				CE9EACB529C9EDFA00388025 /* SignInRequest.swift in Sources */,
 				CEBCFD9D29B78726008178BF /* SignUpUIState.swift in Sources */,
